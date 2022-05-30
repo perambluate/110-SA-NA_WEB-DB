@@ -93,3 +93,6 @@ It will delete all the keys in the table, `kv_pairs`.
 #### Status
 - 200 : Successfully delete the key.
 - 400 : Some error occurs.
+
+## Reference
+- [Build a REST API with Node.js SQLite and Express JS - Developer How-to](https://developerhowto.com/2018/12/29/build-a-rest-api-with-node-js-and-express-js/)
