@@ -164,6 +164,7 @@ app.delete('/key/:key', (req, res, cb) => {
         if (err) {
             console.log('errors occur when delete key');
             console.error(err);
+            res.status(400).send();
             return;
         };
 
@@ -178,6 +179,7 @@ app.delete('/key', (req, res, cb) => {
         if (err) {
             console.log('errors occur when delete key');
             console.error(err);
+            res.status(400).send();
             return;
         };
 
