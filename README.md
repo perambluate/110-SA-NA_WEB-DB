@@ -16,7 +16,7 @@ cd 110-SA-NA_WEB-DB
 npm init
 npm install express sqlite3
 ```
-Add the following content in `package.json` for quickly using
+Add the following content in `package.json` for quickly usage.
 ```json
 "scripts":{
   "start": "node app.js",
@@ -38,7 +38,7 @@ or
 ```
 node app.js
 ```
-to set up the app service
+to set up the app service.
 ### Test
 ```bash
 curl localhost:6060
