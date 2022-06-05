@@ -8,7 +8,7 @@ Ubuntu 20.04
 - nodejs
 - npm
 - sqlite3
-> Can be installed `nodejs` and `apm` with `apt`
+> You can install `nodejs` and `npm` with `apt`.
 
 ## Installation
 ```bash=
@@ -16,7 +16,7 @@ cd 110-SA-NA_WEB-DB
 npm init
 npm install express sqlite3
 ```
-Add the following content in `package.json` for quickly usage.
+Add the following content in `package.json` for quick usage.
 ```json
 "scripts":{
   "start": "node app.js",
