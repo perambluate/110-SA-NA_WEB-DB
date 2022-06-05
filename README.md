@@ -8,7 +8,7 @@ Ubuntu 20.04
 - nodejs
 - npm
 - sqlite3
-> You can install `nodejs` and `npm` with `apt`.
+> You can install `nodejs`, `npm` and `sqlite3` with `apt`.
 
 ## Installation
 ```bash=
